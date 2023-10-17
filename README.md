@@ -16,7 +16,7 @@ This repository contains datasets from two APT simulations conducted using Calde
 
 - **Nature of Records:** The majority of the logs capture benign activities, with only a small fraction representing actual attacker activities.
 
-- **Data Model:** The audit logs are modeled based on MITRE's CAR (Cyber Analytics Repository) data model. More details can be found [here](link here).
+- **Data Model:** The audit logs are modeled based on MITRE's CAR (Cyber Analytics Repository) data model. More details can be found [[here](https://github.com/FiveDirections/OpTC-data/blob/master/ecar.md)]).
 
 ## Ground Truth
 
