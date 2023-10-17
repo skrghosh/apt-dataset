@@ -1,6 +1,6 @@
 # Caldera APT Simulation Datasets
 
-This repository contains datasets from two APT simulations conducted using [[Caldera]https://caldera.mitre.org/], following the guidelines provided by MITRE. These datasets are invaluable for researchers and practitioners aiming to study the intricacies of advanced persistent threats in real-world environments.
+This repository contains datasets from two APT simulations conducted using [[Caldera](https://caldera.mitre.org/)], following the guidelines provided by [[MITRE](https://github.com/center-for-threat-informed-defense/adversary_emulation_library)]. These datasets are invaluable for researchers and practitioners aiming to study the intricacies of advanced persistent threats in real-world environments.
 
 ## Dataset Details
 
@@ -16,7 +16,7 @@ This repository contains datasets from two APT simulations conducted using [[Cal
 
 - **Nature of Records:** The majority of the logs capture benign activities, with only a small fraction representing actual attacker activities.
 
-- **Data Model:** The audit logs are modeled based on MITRE's CAR (Cyber Analytics Repository) and FiveDirections' eCAR data model. More details can be found [[here](https://github.com/FiveDirections/OpTC-data/blob/master/ecar.md)]).
+- **Data Model:** The audit logs are modeled based on MITRE's CAR (Cyber Analytics Repository) and FiveDirections' eCAR data model. More details can be found [[here](https://github.com/FiveDirections/OpTC-data/blob/master/ecar.md)].
 
 ## Ground Truth
 
