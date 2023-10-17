@@ -5,12 +5,12 @@ This repository contains datasets from two APT simulations conducted using Calde
 ## Dataset Details
 
 - **Total Records:** 
-  - Dataset 1: X million audit log records.
-  - Dataset 2: Y million audit log records.
+  - FIN6 Dataset: X million audit log records.
+  - APT 29 Dataset: Y million audit log records.
 
 - **Duration of Simulation:**
-  - Dataset 1: M hours.
-  - Dataset 2: N hours.
+  - FIN6 Dataset: M hours.
+  - APT 29 Dataset: N hours.
 
 - **Target System:** Windows 10 (64-bit).
 
