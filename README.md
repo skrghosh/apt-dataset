@@ -1,6 +1,6 @@
 # Caldera APT Simulation Datasets
 
-This repository contains datasets from two APT simulations conducted using [Caldera](https://caldera.mitre.org/), following the guidelines provided by [MITRE](https://github.com/center-for-threat-informed-defense/adversary_emulation_library). These datasets are invaluable for researchers and practitioners aiming to study the intricacies of advanced persistent threats in real-world environments.
+This repository contains datasets from two APT simulations conducted using [Caldera](https://caldera.mitre.org/), following the guidelines provided by MITRE [Center for Threat-Informed Defense]((https://github.com/center-for-threat-informed-defense/adversary_emulation_library)). These datasets are invaluable for researchers and practitioners aiming to study the intricacies of advanced persistent threats in real-world environments.
 
 ## Dataset Details
 
