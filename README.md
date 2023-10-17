@@ -29,6 +29,12 @@ These datasets can serve multiple purposes:
 - **Benchmarking Security Solutions:** Test the efficiency of your Intrusion Detection Systems (IDS) or other security solutions against real-world APT simulations.
 - **Research:** Ideal for academic and industry research to understand the behavior and patterns of APTs.
 
+--------------------------------------------------------------------------
+
+WE ARE CURRENTLY ANONYMIZING THE DATASET TO REMOVE CERTAIN IDENTIFIABLE KEYWORDS AND IT WILL BE DONE IN THE NEXT FEW WEEKS.
+
+--------------------------------------------------------------------------
+
 ## License
 
 Please refer to the LICENSE file for details on usage, reproduction, and distribution.
@@ -38,7 +44,5 @@ Please refer to the LICENSE file for details on usage, reproduction, and distrib
 We would like to acknowledge MITRE and the Caldera team for providing guidelines that made these simulations possible.
 
 ---
-
-WE ARE CURRENTLY ANONYMIZING THE DATASET TO REMOVE CERTAIN IDENTIFIABLE KEYWORDS AND IT WILL BE DONE IN THE NEXT FEW WEEKS.
 
 Feel free to raise issues if you find any discrepancies in the datasets or have any queries regarding the same. Suggestions are always welcome!
