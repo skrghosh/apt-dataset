@@ -25,9 +25,9 @@ For each of the simulations, we've also uploaded the corresponding ground truths
 ## Usage
 
 These datasets can serve multiple purposes:
+- **Research:** Ideal for academic and industry research to understand the behavior and patterns of APTs.
 - **Training Machine Learning Models:** Given the vast number of logs, these datasets are ideal for training ML models to distinguish between benign and malicious activities.
 - **Benchmarking Security Solutions:** Test the efficiency of your Intrusion Detection Systems (IDS) or other security solutions against real-world APT simulations.
-- **Research:** Ideal for academic and industry research to understand the behavior and patterns of APTs.
 
 --------------------------------------------------------------------------
 
