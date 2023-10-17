@@ -39,4 +39,6 @@ We would like to acknowledge MITRE and the Caldera team for providing guidelines
 
 ---
 
-Feel free to raise issues if you find any discrepancies in the datasets or have any queries regarding the same. Contributions and suggestions are always welcome!
+WE ARE CURRENTLY ANONYMIZING THE DATASET TO REMOVE CERTAIN IDENTIFIABLE KEYWORDS AND IT WILL BE DONE IN THE NEXT FEW WEEKS.
+
+Feel free to raise issues if you find any discrepancies in the datasets or have any queries regarding the same. Suggestions are always welcome!
