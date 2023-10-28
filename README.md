@@ -9,8 +9,8 @@ This repository contains datasets from two APT simulations conducted using [Cald
   - APT 29 Dataset: 3.74 million audit log records.
 
 - **Duration of Simulation:**
-  - FIN6 Dataset: M hours.
-  - APT 29 Dataset: N hours.
+  - FIN6 Dataset: 18 hrs 55 mins.
+  - APT 29 Dataset: 11 hrs 05 mins.
 
 - **Target System:** Windows 10 (64-bit).
 
