@@ -5,8 +5,8 @@ This repository contains datasets from two APT simulations conducted using [Cald
 ## Dataset Details
 
 - **Total Records:** 
-  - FIN6 Dataset: X million audit log records.
-  - APT 29 Dataset: Y million audit log records.
+  - FIN6 Dataset: 2.35 million audit log records.
+  - APT 29 Dataset: 3.74 million audit log records.
 
 - **Duration of Simulation:**
   - FIN6 Dataset: M hours.
