@@ -60,6 +60,27 @@ The FIN6 campaign involved a series of tactics and techniques. The table below l
 Please note that the techniques listed above are linked to the MITRE ATT&CK framework, which details a comprehensive matrix of tactics and techniques used by threat actors in real-world cyber attacks.
 
 
+## menuPass Campaign Tactics and Techniques
+
+Below is the detailed list of tactics and techniques used during the menuPass campaign simulation, along with the corresponding abilities that were demonstrated.
+
+| Tactics             | Techniques                                       | Abilities                             |
+|---------------------|--------------------------------------------------|---------------------------------------|
+| Collection          | T1560.001: Archive Collected Data: Archive via Utility | Archive Collected Data - Archive via Utility |
+|                     | T1074.001: Local Data Staging                    |  Recycle Bin Staging    |
+| Discovery           |                                                  |  ProgramData-Temp-Creation |
+|                     | T1105: Ingress Tool Transfer                     |  Ingress Tool Transfer  |
+|                     | T1135: Network Share Discovery                   |  Network Share Discovery |
+|                     | T1018: Remote System Discovery                   |  Remote System Discovery |
+|                     | T1046: Network Service Scanning                  |  Network Service Scanning |
+|                     | T1016: System Network Configuration Discovery    |  System Network Configuration Discovery |
+| Execution           | T1047: Windows Management Instrumentation        |  Windows Management Instrumentation |
+| Exfiltration        | T1537: Transfer Data to Cloud Account            |  Transfer Data to Cloud Account |
+| Lateral-movement    | T1569.002: System Services: Service Execution    |  Service Execution |
+
+
+
+
 
 ## Usage
 
