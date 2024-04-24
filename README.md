@@ -106,7 +106,11 @@ The table below presents a comprehensive view of the tactics and techniques used
 |                    | T1069.002: Permission Groups Discovery: Domain Groups | TrickBot Domain Trust Discovery, TrickBot Permission Groups Discovery, |
 |                    |                                                   | Wizard Spider Domain Group Discovery                                    |
 | Exfiltration       | T1041: Exfiltration Over C2 Channel                | WizardSpider-02-09-2024-3: Data from staged file (T1074) and            |
-|                    |                                                   | Exfiltration over C2 Channel (T1041)                                    |
+|                    |                                                    | Exfiltration over C2 Channel (T1041)                                    |
+| Impact             | T1489: Service Stop                                | Wizard Spider Runs kill.bat  |
+|                    | T1490: Inhibit System Recovery                     | Wizard Spider Runs window.bat  |
+| Persistence        | T1547.001: Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder                | Emotet Persistence  |
+|                    | T1547.004: Boot or Logon Autostart Execution: Winlogon Helper DLL | Wizard Spider Registry Persistence                      |
 
 
 
