@@ -79,6 +79,36 @@ Below is the detailed list of tactics and techniques used during the menuPass ca
 | Lateral-movement    | T1569.002: System Services: Service Execution    |  Service Execution |
 
 
+## Wizard Spider Campaign Tactics and Techniques
+
+The table below presents a comprehensive view of the tactics and techniques used in the Wizard Spider campaign simulation, along with the abilities that correspond to each technique.
+
+| Tactics            | Techniques                                        | Abilities                                                               |
+|--------------------|---------------------------------------------------|-------------------------------------------------------------------------|
+| Collection         | T1114.001: Email Collection: Local Email Collection | WizardSpider-02-09-2024-3: Emotet Scrape Email Addresses from Outlook   |
+| Command-and-Control | T1105: Ingress Tool Transfer                       | WizardSpider-02-09-2024-3: Emotet Download Outlook Scraper DLL          |
+|                    | T1486: Data Encrypted for Impact                   | Wizard Spider Downloads kill.bat, Wizard Spider Downloads window.bat,   |
+|                    |                                                   | Wizard Spider Downloads ryuk.exe, Wizard Spider Executes Ryuk Ransomware|
+| Credential-Access  | T1552: Unsecured Credentials                       | WizardSpider-02-09-2024-3: Emotet Scrape Email Content From Outlook     |
+|                    | T1558.003: Steal or Forge Kerberos Tickets:        | TrickBot Perform Kerberoasting                                          |
+|                    | Kerberoasting                                      | Wizard Spider Create Volume Shadow Copy                                 |
+|                    | T1003.003: OS Credential Dumping: NTDS            | Wizard Spider Save Registry Hive                                        |
+|                    | T1003.002: OS Credential Dumping: Security Account | Manager                                                                 |
+| Discovery          | T1082: System Information Discovery                | WizardSpider-02-09-2024-3: Emotet System Info Discovery                 |
+|                    | T1057: Process Discovery                           | Emotet Process Discovery                                                |
+|                    | T1007: System Service Discovery                    | TrickBot System Information Discovery                                   |
+|                    | T1087.001: Account Discovery: Local Account        | TrickBot System Information Discovery                                   |
+|                    | T1087.002: Account Discovery: Domain Account       | TrickBot System Service Discovery (systeminfo)                          |
+|                    | T1016: System Network Configuration Discovery      | TrickBot Local Account Discovery, TrickBot Domain Account Discovery     |
+|                    | T1049: System Network Connections Discovery        | TrickBot System Network Configuration Discovery                         |
+|                    | T1482: Domain Trust Discovery                      | TrickBot System Network Connections Discovery                           |
+|                    | T1069: Permission Groups Discovery                 | TrickBot System Information Discovery (net config)                      |
+|                    | T1069.002: Permission Groups Discovery: Domain Groups | TrickBot Domain Trust Discovery, TrickBot Permission Groups Discovery, |
+|                    |                                                   | Wizard Spider Domain Group Discovery                                    |
+| Exfiltration       | T1041: Exfiltration Over C2 Channel                | WizardSpider-02-09-2024-3: Data from staged file (T1074) and            |
+|                    |                                                   | Exfiltration over C2 Channel (T1041)                                    |
+
+
 
 
 
