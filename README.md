@@ -40,8 +40,6 @@ Corresponding ground truths for each scenario are included in the Ground Truth d
 
 ## FIN6 Campaign Tactics and Techniques
 
-The FIN6 campaign involved a series of tactics and techniques. The table below lists each tactic, the corresponding techniques, and the abilities that were used in the simulation.
-
 | Tactics            | Techniques                                       | Abilities                                  |
 |--------------------|--------------------------------------------------|--------------------------------------------|
 | Collection         | T1560.001: Archive Collected Data: Archive via Utility |  Compress Files with 7zip (7z.exe) |
@@ -57,12 +55,8 @@ The FIN6 campaign involved a series of tactics and techniques. The table below l
 | Exfiltration       | T1041.005: Exfiltration Over C2 Channel         |  Exfil staged directory |
 | Privilege-escalation | T1134: Access Token Manipulation              |  PowerSploit Named-Pipe Impersonation |
 
-Please note that the techniques listed above are linked to the MITRE ATT&CK framework, which details a comprehensive matrix of tactics and techniques used by threat actors in real-world cyber attacks.
-
 
 ## menuPass Campaign Tactics and Techniques
-
-Below is the detailed list of tactics and techniques used during the menuPass campaign simulation, along with the corresponding abilities that were demonstrated.
 
 | Tactics             | Techniques                                       | Abilities                             |
 |---------------------|--------------------------------------------------|---------------------------------------|
@@ -80,8 +74,6 @@ Below is the detailed list of tactics and techniques used during the menuPass ca
 
 
 ## Wizard Spider Campaign Tactics and Techniques
-
-The table below presents a comprehensive view of the tactics and techniques used in the Wizard Spider campaign simulation, along with the abilities that correspond to each technique.
 
 | Tactics            | Techniques                                        | Abilities                                                               |
 |--------------------|---------------------------------------------------|-------------------------------------------------------------------------|
@@ -113,6 +105,36 @@ The table below presents a comprehensive view of the tactics and techniques used
 |                    | T1547.004: Boot or Logon Autostart Execution: Winlogon Helper DLL | Wizard Spider Registry Persistence                      |
 
 
+## OilRig Campaign Tactics and Techniques
+
+| Tactics           | Techniques                                      | Abilities                                   |
+|-------------------|-------------------------------------------------|---------------------------------------------|
+| Command-and-Contro| T1105: Ingress Tool Transfer                    | OilRig Download Plink                       |
+| l                 | T1572: Protocol Tunneling                       | OilRig Plink                                |
+| Credential-access | T1555.004: Credentials from Password Stores:    | OilRig Dump Credentials from                |
+|                   | Windows Credential Manager                      | Windows Credential Manager                  |
+| Defense-evasion   | T1082: Hide Artifacts: Hidden Files & Directories | OilRig Set file hidden attribute           |
+| Discovery         | T1083: System Information Discovery             | OilRig Execute VBS payload to               |
+|                   |                                                 | collect hostname                            |
+|                   | T1033: System Owner/User Discovery              | OilRig Current User                         |
+|                   | T1016: System Network Configuration Discovery   | OilRig Collect hostname                     |
+|                   | T1087.002: Account Discovery: Domain Account    | OilRig Network Interface Configuration      |
+|                   | T1069.002: Permission Groups Discovery:         | OilRig Domain Account Discovery             |
+|                   | Domain Groups                                   | OilRig Group Account Discovery              |
+|                   | T1087.001: Account Discovery: Local Account     | OilRig "domain admins" Group Discovery      |
+|                   | T1069.001: Permission Groups Discovery:         | OilRig Local Account Discovery              |
+|                   | Local Groups                                    | OilRig "administrators" local group discovery|
+|                   | T1049: System Network Connections Discovery     | OilRig View Network Connections             |
+|                   | T1057: Process Discovery                        | OilRig Process discovery                    |
+|                   | T1007: System Service Discovery                 | OilRig System Service Discovery             |
+|                   | T1012: Query Registry                           | OilRig System Information Discovery         |
+|                   | T1018: Remote System Discovery                  | OilRig Query Registry                       |
+|                   |                                                 | OilRig "SQL Admins" Group Discovery         |
+|                   |                                                 | OilRig nslookup WATERFALLS                  |
+|                   |                                                 | OilRig Execute VBS payload to collect username|
+| Exfiltration      | T1041: Exfiltration Over C2 Channel             | OilRig Exfil fsociety.dat                   |
+
+These tables provide a snapshot of the adversarial techniques and corresponding behaviors replicated during the simulation to emulate the different APT group's known tactics and capabilities as outlined by MITRE.
 
 
 
