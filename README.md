@@ -44,18 +44,18 @@ The FIN6 campaign involved a series of tactics and techniques. The table below l
 
 | Tactics            | Techniques                                       | Abilities                                  |
 |--------------------|--------------------------------------------------|--------------------------------------------|
-| Collection         | T1560.001: Archive Collected Data: Archive via Utility | fin6-25-july: Compress Files with 7zip (7.exe) |
-| Credential-access  | T1003.001: OS Credential Dumping: LSASS Memory - Invoke-Mimikatz | fin6-25-july: PowerSploit Invoke-Mimikatz |
-|                    | T1003.001: OS Credential Dumping: LSASS Memory - Windows Credential Editor (WCE) | fin6-25-july: WCE Credential Access      |
-| Discovery          | T1087.002: Account Discovery: Domain Account    | fin6-25-july: Enumerate AD person objects |
-|                    | T1018: Remote System Discovery                  | fin6-25-july: Enumerate AD computer objects |
-|                    | T1482: Domain Trust Discovery                   | fin6-25-july: Enumerate AD Organizational Units |
-|                    | T1016: System Network Configuration Discovery   | fin6-25-july: Enumerate AD trust objects |
-|                    | T1069.002: Permission Groups Discovery: Domain Groups Units | fin6-25-july: Enumerate AD subnets, Enumerate AD groups |
-| Execution          | T1569.002: System Services: Service Execution   | fin6-25-july: PsExec Remote Command |
-|                    | T1047: Windows Management Instrumentation       | fin6-25-july: WMIC Remote Process Execution |
-| Exfiltration       | T1041.005: Exfiltration Over C2 Channel         | fin6-25-july: Exfil staged directory |
-| Privilege-escalation | T1134: Access Token Manipulation              | fin6-25-july: PowerSploit Named-Pipe Impersonation |
+| Collection         | T1560.001: Archive Collected Data: Archive via Utility |  Compress Files with 7zip (7.exe) |
+| Credential-access  | T1003.001: OS Credential Dumping: LSASS Memory - Invoke-Mimikatz |  PowerSploit Invoke-Mimikatz |
+|                    | T1003.001: OS Credential Dumping: LSASS Memory - Windows Credential Editor (WCE) |  WCE Credential Access      |
+| Discovery          | T1087.002: Account Discovery: Domain Account    |  Enumerate AD person objects |
+|                    | T1018: Remote System Discovery                  |  Enumerate AD computer objects |
+|                    | T1482: Domain Trust Discovery                   |  Enumerate AD Organizational Units |
+|                    | T1016: System Network Configuration Discovery   |  Enumerate AD trust objects |
+|                    | T1069.002: Permission Groups Discovery: Domain Groups Units |  Enumerate AD subnets, Enumerate AD groups |
+| Execution          | T1569.002: System Services: Service Execution   |  PsExec Remote Command |
+|                    | T1047: Windows Management Instrumentation       |  WMIC Remote Process Execution |
+| Exfiltration       | T1041.005: Exfiltration Over C2 Channel         |  Exfil staged directory |
+| Privilege-escalation | T1134: Access Token Manipulation              |  PowerSploit Named-Pipe Impersonation |
 
 Please note that the techniques listed above are linked to the MITRE ATT&CK framework, which details a comprehensive matrix of tactics and techniques used by threat actors in real-world cyber attacks.
 
