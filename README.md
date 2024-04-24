@@ -109,8 +109,8 @@ Corresponding ground truths for each scenario are included in the Ground Truth d
 
 | Tactics           | Techniques                                      | Abilities                                   |
 |-------------------|-------------------------------------------------|---------------------------------------------|
-| Command-and-Contro| T1105: Ingress Tool Transfer                    | OilRig Download Plink                       |
-| l                 | T1572: Protocol Tunneling                       | OilRig Plink                                |
+| Command-and-Control| T1105: Ingress Tool Transfer                    | OilRig Download Plink                       |
+|                   | T1572: Protocol Tunneling                       | OilRig Plink                                |
 | Credential-access | T1555.004: Credentials from Password Stores:    | OilRig Dump Credentials from                |
 |                   | Windows Credential Manager                      | Windows Credential Manager                  |
 | Defense-evasion   | T1082: Hide Artifacts: Hidden Files & Directories | OilRig Set file hidden attribute           |
