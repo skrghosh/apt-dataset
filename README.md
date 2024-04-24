@@ -44,7 +44,7 @@ The FIN6 campaign involved a series of tactics and techniques. The table below l
 
 | Tactics            | Techniques                                       | Abilities                                  |
 |--------------------|--------------------------------------------------|--------------------------------------------|
-| Collection         | T1560.001: Archive Collected Data: Archive via Utility |  Compress Files with 7zip (7.exe) |
+| Collection         | T1560.001: Archive Collected Data: Archive via Utility |  Compress Files with 7zip (7z.exe) |
 | Credential-access  | T1003.001: OS Credential Dumping: LSASS Memory - Invoke-Mimikatz |  PowerSploit Invoke-Mimikatz |
 |                    | T1003.001: OS Credential Dumping: LSASS Memory - Windows Credential Editor (WCE) |  WCE Credential Access      |
 | Discovery          | T1087.002: Account Discovery: Domain Account    |  Enumerate AD person objects |
@@ -85,16 +85,16 @@ The table below presents a comprehensive view of the tactics and techniques used
 
 | Tactics            | Techniques                                        | Abilities                                                               |
 |--------------------|---------------------------------------------------|-------------------------------------------------------------------------|
-| Collection         | T1114.001: Email Collection: Local Email Collection | WizardSpider-02-09-2024-3: Emotet Scrape Email Addresses from Outlook   |
-| Command-and-Control | T1105: Ingress Tool Transfer                       | WizardSpider-02-09-2024-3: Emotet Download Outlook Scraper DLL          |
+| Collection         | T1114.001: Email Collection: Local Email Collection | Emotet Scrape Email Addresses from Outlook   |
+| Command-and-Control | T1105: Ingress Tool Transfer                       |  Emotet Download Outlook Scraper DLL          |
 |                    | T1486: Data Encrypted for Impact                   | Wizard Spider Downloads kill.bat, Wizard Spider Downloads window.bat,   |
 |                    |                                                   | Wizard Spider Downloads ryuk.exe, Wizard Spider Executes Ryuk Ransomware|
-| Credential-Access  | T1552: Unsecured Credentials                       | WizardSpider-02-09-2024-3: Emotet Scrape Email Content From Outlook     |
+| Credential-Access  | T1552: Unsecured Credentials                       |  Emotet Scrape Email Content From Outlook     |
 |                    | T1558.003: Steal or Forge Kerberos Tickets:        | TrickBot Perform Kerberoasting                                          |
 |                    | Kerberoasting                                      | Wizard Spider Create Volume Shadow Copy                                 |
 |                    | T1003.003: OS Credential Dumping: NTDS            | Wizard Spider Save Registry Hive                                        |
 |                    | T1003.002: OS Credential Dumping: Security Account | Manager                                                                 |
-| Discovery          | T1082: System Information Discovery                | WizardSpider-02-09-2024-3: Emotet System Info Discovery                 |
+| Discovery          | T1082: System Information Discovery                |  Emotet System Info Discovery                 |
 |                    | T1057: Process Discovery                           | Emotet Process Discovery                                                |
 |                    | T1007: System Service Discovery                    | TrickBot System Information Discovery                                   |
 |                    | T1087.001: Account Discovery: Local Account        | TrickBot System Information Discovery                                   |
@@ -105,7 +105,7 @@ The table below presents a comprehensive view of the tactics and techniques used
 |                    | T1069: Permission Groups Discovery                 | TrickBot System Information Discovery (net config)                      |
 |                    | T1069.002: Permission Groups Discovery: Domain Groups | TrickBot Domain Trust Discovery, TrickBot Permission Groups Discovery, |
 |                    |                                                   | Wizard Spider Domain Group Discovery                                    |
-| Exfiltration       | T1041: Exfiltration Over C2 Channel                | WizardSpider-02-09-2024-3: Data from staged file (T1074) and            |
+| Exfiltration       | T1041: Exfiltration Over C2 Channel                |  Data from staged file (T1074) and            |
 |                    |                                                    | Exfiltration over C2 Channel (T1041)                                    |
 | Impact             | T1489: Service Stop                                | Wizard Spider Runs kill.bat  |
 |                    | T1490: Inhibit System Recovery                     | Wizard Spider Runs window.bat  |
