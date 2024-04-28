@@ -166,7 +166,7 @@ A full copy of the license can be found [here](https://creativecommons.org/licen
 
 ## Acknowledgements
 
-Special thanks to MITRE and the Caldera team for their guidance in creating these simulations.
+Special thanks to MITRE and the Caldera for releasing the tools and guidance in creating these simulations.
 
 ---
 
