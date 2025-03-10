@@ -159,7 +159,7 @@ This dataset is made available under the Creative Commons Attribution 4.0 Intern
 
 When citing this dataset, please use the following format:
 
-> [Name of Authors]. Citar: Cyberthreat Intelligence-driven Attack Reconstruction. [Online].
+> Sutanu Kumar Ghosh, Rigel Gjomemo, V.N.Venkatakrishnan. Citar: Cyberthreat Intelligence-driven Attack Reconstruction. [Online, Full citation details to be updated soon].
 
 A full copy of the license can be found [here](https://creativecommons.org/licenses/by/4.0/).
 
