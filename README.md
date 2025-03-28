@@ -49,8 +49,8 @@ The table below expands on the summary provided earlier, detailing each attack s
 | Agent Tesla   | 6h 03m   | 2.69M        | Process Execution, File Dropping, Registry Activity, Systeminfo Discovery, C2 connections. | 99.98% |
 | AsyncRAT      | 6h 45m   | 1.37M        | Powershell Execution, Spawned malicious Notepad++, Registry Activity, File Modifications, Malware dropped, Process Injection. | 99.93% |
 | Amadey        | 5h 16m   | 5.19M        | Registry Modification, Command Executions, Files dropped, Systeminfo Discovery, Spawned benign processes, Process Executions | 99.68% |
-| OpTC Day-1    | 22h 23m  | 1.45M (Average) | BAT file download, Bypass UAC, Mimikatz, Registry Persistence, Ping Sweep, Screenshot, PowerShellEmpire WMI, DLL download, Cleanup | 96.88% |
-| OpTC Day-2    | 9h 49m   | 1.31M (Average) | Phishing Emails, DeathStar, Active Directory Collection, WMI Persistence, Enumerate Registry, Downloaded Plink and fileTransfer1000.exe, Exfil | 99.95% |
+| [OpTC Day-1](https://drive.google.com/drive/u/0/folders/1n3kkS3KR31KUegn42yk3-e6JkZvf0Caa)    | 22h 23m  | 1.45M (Average) | BAT file download, Bypass UAC, Mimikatz, Registry Persistence, Ping Sweep, Screenshot, PowerShellEmpire WMI, DLL download, Cleanup | 96.88% |
+| [OpTC Day-2](https://drive.google.com/drive/u/0/folders/1n3kkS3KR31KUegn42yk3-e6JkZvf0Caa)    | 9h 49m   | 1.31M (Average) | Phishing Emails, DeathStar, Active Directory Collection, WMI Persistence, Enumerate Registry, Downloaded Plink and fileTransfer1000.exe, Exfil | 99.95% |
 
 > **Note:** For a detailed discussion of each attack step, please refer to our paper.
 
