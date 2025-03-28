@@ -187,8 +187,8 @@ These tables provide a snapshot of the adversarial techniques and corresponding 
 ## Usage 🚀
 
 These datasets are versatile, suited for:
-- **Research:** Understand APT behaviors and patterns.
-- **Machine Learning:** Train models to differentiate between benign and malicious actions.
+- **Ingestion:** All the logs are in JSON format. So you can easily ingest them to your preferred framework.
+- **Machine Learning:** One can write a script to differentiate the benign logs from the malicious ones. They can later be used to train different ML or RL models.
 - **Benchmarking:** Evaluate the performance of attack detection or alert correlation systems against simulated APT attacks.
 
 ---
