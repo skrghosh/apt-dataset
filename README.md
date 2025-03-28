@@ -193,11 +193,6 @@ These datasets are versatile, suited for:
 
 ---
 
-**Anonymization Update:**
-We are currently in the process of anonymizing the dataset to remove identifiable keywords. This will be completed in the upcoming weeks.
-
----
-
 ## License
 
 This dataset is made available under the Creative Commons Attribution 4.0 International license (CC BY 4.0). You are free to share and adapt this dataset for any purpose, even commercially, as long as you provide appropriate credit, provide a link to the license, and indicate if changes were made.
@@ -208,11 +203,5 @@ When citing this dataset, please use the following format:
 
 A full copy of the license can be found [here](https://creativecommons.org/licenses/by/4.0/).
 
-
-## Acknowledgements
-
-Special thanks to MITRE and the Caldera for releasing the tools and guidance in creating these simulations.
-
----
 
 For any discrepancies found in the datasets or inquiries about their use, please open an issue in this repository. Contributions and suggestions are always appreciated!
